@@ -1,0 +1,234 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    color: #fff;
+    padding: 1rem;
+  }
+  .foto-perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin: 20px 10px 10px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+  }
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ddd;
+  }
+  
+  .search-bar input {
+    width: 270px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .container {
+    display: flex;
+    padding: 0rem;
+  }
+  
+  .sidebar {
+    margin: 0px;
+    flex: 0.6;
+    padding: 1rem;
+    background: #AF0303;
+    color: aliceblue;
+  }
+  button.button-link {
+    border: none;
+    height: 40px;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+  .button-link {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.button-link:hover {
+    background: #555;
+}
+  .sidebar section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .nombre {
+    margin: 115px 0px 0px 35px;
+  }
+  .categories{
+    margin: 60px 0px 40px 30px;
+  }
+  .recent-posts{
+    margin: 30px 0px 40px 30px; 
+  }
+  .social-media{
+    margin: 30px 0px 40px 30px; 
+  }
+  .titulo-sidebar {
+    margin:0px 0px 0px 0px; 
+}
+.foto-diseño, .foto-diseño-2 {
+    width: 100%; 
+    max-width: 600px;
+    max-height: 300px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.foto-diseño-3 {
+    width: 100%;
+    max-width: 600px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.sidebar ul {
+    list-style: none;
+    
+  }
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    color: aliceblue;
+}
+.sidebar ul li a:hover {
+    color: #acacac;
+    transition: color 0.3s;
+}
+.content {
+    flex: 3;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 600px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+  .post h2 {
+    margin-bottom: 0.5rem;
+  }
+  .post .date {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  .post img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  .comments h3 {
+    margin-top: 1rem;
+  }
+  .comments form input,
+  .comments form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .comments form button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .comments form button:hover {
+    background: #555;
+  }
+  .secciones-header{
+    margin-left: 350px;
+  }
+
+  .secc{
+    margin-right: 60px;
+  }
+ .barra-busqueda{
+    width: 100px;
+ }
+  footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    header, .sidebar, .content, footer {
+      padding: 0.5rem;
+    }
+    header nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  .social-media ul li a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    transition: color 0.3s;
+  }
+  .social-media ul li a:hover i {
+    color: #acacac;
+  }

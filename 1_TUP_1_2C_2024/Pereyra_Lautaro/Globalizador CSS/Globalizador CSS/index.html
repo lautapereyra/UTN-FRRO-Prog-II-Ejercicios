@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+        </div>
+        <nav>
+            <ul class="secciones-header">
+                <li><a class="secc" href="#">Inicio</a></li>
+                <li><a class="secc" href="#">Blog</a></li>
+                <li><a class="secc" href="#">Sobre mí</a></li>
+                <li><a class="secc" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input class="barra-busqueda" type="text" placeholder="Ingrese su búsqueda...">
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <img class="foto-perfil" src="./images/LautaroPereyra.jpg">
+            <h1 class="nombre">Lautaro Pereyra</h1>
+            <section class="categories">
+                <h2 class="titulo-sidebar">Categorías</h2>
+                <ul>
+                    <li><a href="#">Tecnología</a></li>
+                    <li><a href="#">Diseño</a></li>
+                    <li><a href="#">Programación</a></li>
+                </ul>
+            </section>
+            <section class="recent-posts">
+                <h2 class="titulo-sidebar">Últimos Artículos</h2>
+                <ul>
+                    <li><a href="#">Proyecto de Señaletica Rosario</a></li>
+                    <li><a href="#">Proyecto Intro Animada</a></li>
+                    <li><a href="#">Matchpoint - Gamer App</a></li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <h2 class="titulo-sidebar">Seguime en</h2>
+                <ul>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#"><i class="fab fa-behance"></i> Behance</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            </section>
+        </aside>
+        <main class="content">
+            <article class="post">
+                <h2>Proyecto de Señaletica Rosario</h2>
+                <p class="date">27 de diciembre de 2023</p>
+                <img class="foto-diseño" src="./images/Rosario Señaletica.JPG" alt="Imagen del Artículo 1">
+                <p>Proyecto de señalética para Rosario: diseño de un sistema visual intuitivo y accesible, que facilita
+                    la orientación en entornos urbanos. La propuesta integra iconografía distintiva, colores
+                    estratégicos y tipografía legible, aportando cohesión estética y mejorando la
+                    experiencia de navegación en la ciudad.</p>
+                <div class="comments">
+                    <h3>Comentarios</h3>
+                    <form>
+                        <input type="text" placeholder="Tu nombre">
+                        <textarea placeholder="Escribe tu comentario..."></textarea>
+                        <button type="submit" class="button-link">Enviar</button>
+                        <a href="https://www.behance.net/gallery/187560347/Rosario-Proyecto-de-Senaltica"
+                            class="button-link">Ir al proyecto</a>
+                    </form>
+                </div>
+            </article>
+            <article class="post">
+                <h2>Proyecto Intro Animada</h2>
+                <p class="date">22 de marzo de 2024</p>
+                <img class="foto-diseño-2" src="./images/Goodfellas.JPG" alt="Imagen del Artículo 1">
+                <p>El proyecto consiste en una intro animada que utiliza ilustraciones de Goodfellas
+                    con efectos de paralaje, generando un movimiento visual envolvente. Este enfoque
+                    resalta la atmósfera clásica y estilizada de la película, mientras que la técnica
+                    de paralaje simula profundidad y dinamismo, capturando la esencia visual de la
+                    obra de manera moderna y atractiva.</p>
+                <div class="comments">
+                    <h3>Comentarios</h3>
+                    <form>
+                        <input type="text" placeholder="Tu nombre">
+                        <textarea placeholder="Escribe tu comentario..."></textarea>
+                        <button type="submit" class="button-link">Enviar</button>
+                        <a href="https://www.youtube.com/watch?v=wkWN6pkTqlw" class="button-link">Ir al proyecto</a>
+                    </form>
+                </div>
+            </article>
+            <article class="post">
+                <h2>Matchpoint - Gamer App (Próximamente)</h2>
+                <p class="date">6 de diciembre de 2023</p>
+                <img class="foto-diseño-3" src="./images/Matchpoint.JPG" alt="Imagen del Artículo 1">
+                <p>Matchpoint es una red social gamer diseñada en Figma, enfocada en conectar jugadores de todo el
+                    mundo. Su interfaz intuitiva y moderna permite a los usuarios crear perfiles, compartir logros,
+                    unirse a comunidades y competir en desafíos. Con un diseño UX/UI centrado en la facilidad de uso,
+                    Matchpoint facilita la interacción social, la personalización y el seguimiento de estadísticas,
+                    ofreciendo
+                    una experiencia optimizada y atractiva para los jugadores.</p>
+                <div class="comments">
+                    <h3>Comentarios</h3>
+                    <form>
+                        <input type="text" placeholder="Tu nombre">
+                        <textarea placeholder="Escribe tu comentario..."></textarea>
+                        <button type="submit" class="button-link">Enviar</button>
+                    </form>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Blog. Todos los derechos reservados.</p>
+        <a href="#">Política de Privacidad</a> | <a
+            href="https://sketchfab.com/3d-models/i-dont-fuckin-know-anymore-c34fce96efd9414c89f9cb68395dfbfb">Mapa del Sitio</a>
+    </footer>
+</body>
+</html>
